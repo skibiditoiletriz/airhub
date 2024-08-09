@@ -6,3 +6,9 @@ local tab = window.new_tab('rbxassetid://4483345998')
 
 local section = tab.new_section('Combat')
 
+local toggle = sector.element('Toggle', 'Toggle', false, function(v)
+   print(v.Toggle) -- :nerd:
+end)
+toggle:add_color({Color = Color3.fromRGB(84, 101, 255)}, nil, function(v)
+   print(v.Color)    
+end)
